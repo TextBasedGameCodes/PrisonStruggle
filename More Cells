@@ -1,0 +1,401 @@
+ <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Move Cell - PrisonSteam</title>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok2v=1613a3a185/"},atok:"56854f818b806297d87e7ece6cbbcecd",petok:"8528be426a5f31c7859605cdbf758a1c3ecf2903-1416794729-1800",zone:"prisonsteam.com",rocket:"a",apps:0}];document.write('<script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/dok2v=919620257c/cloudflare.min.js"><'+'\/script>');}}catch(e){};
+//]]>
+</script>
+<link href="/css/template.css?v=2" rel="stylesheet" type="text/css"/>
+<link href="css/MTG.css" rel="stylesheet" type="text/css"/>
+<script data-rocketsrc="http://code.jquery.com/jquery-latest.min.js" type="text/rocketscript"></script>
+<link href="css/ps.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+<script data-rocketsrc="//code.jquery.com/jquery-1.10.2.js" type="text/rocketscript"></script>
+<script data-rocketsrc="//code.jquery.com/ui/1.11.0/jquery-ui.js" type="text/rocketscript"></script>
+<script type="text/rocketscript">
+                                (function() {
+                                    window._pa = window._pa || {};
+                                    var pa = document.createElement('script');
+                                    pa.type = 'text/javascript';
+                                    pa.async = true;
+                                    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/52dd1d9866febd65f800002e.js";
+                                    var s = document.getElementsByTagName('script')[0];
+                                    s.parentNode.insertBefore(pa, s);
+                                })();
+                </script><script type="text/rocketscript">
+                    (function(i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r;
+                        i[r] = i[r] || function() {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date();
+                        a = s.createElement(o),
+                                m = s.getElementsByTagName(o)[0];
+                        a.async = 1;
+                        a.src = g;
+                        m.parentNode.insertBefore(a, m)
+                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                    ga('create', 'UA-44987264-1', 'prisonsteam.com');
+                    ga('send', 'pageview');
+            </script>
+</head>
+<body><script type="text/javascript">
+//<![CDATA[
+try{(function(a){var b="http://",c="prisonsteam.com",d="/cdn-cgi/cl/",e="img.gif",f=new a;f.src=[b,c,d,e].join("")})(Image)}catch(e){}
+//]]>
+</script>
+<div id="outer" class="wrap">
+<div id="header" class="row">
+<div id="game_stats">
+<a href='citizens.php'>752 Total Prisoners</a>
+|| <a href='online.php'>2 Prisoners Online</a>
+|| <a href='24hour.php'>19 Prisoners Online (24 Hours)</a>
+|| <a href='changelog.php'>Changelog</a>
+</div>
+</div>
+<div id="bar" class="row">
+<div class="padding">
+<div id="time">
+Server Time: November 23, 2014 8:05:29pm </div>
+<div id="links">
+<a href="refer.php" class="refer"></a>
+<a href="donate.php" class="upgrade"></a>
+<a href="vote.php" class="vote"></a>
+<div class="spacer"></div>
+</div>
+<div class="spacer"></div>
+<div id="ad">
+</div>
+</div>
+</div><div id="main_area" class="row">
+<div class="left">
+<div class="header profile"></div>
+<div class="menu_box">
+<div class="pad">
+<div id="avatar">
+<img src='http://s3.amazonaws.com/profileimages.torn.com/ae4700a9-ba48-b9ee-1309049.gif' style='width:56px;height:64px;border:none;padding-right:5px;'/>
+</div>
+<div id="info">
+<a href='viewgang.php?id=24' title='MIB' class='tooltip'>[<b><font color='#0000CD'>M</font><font color='#F54D70'>I</font><font color='#B62084'>B</font></b>]</a> <a href='profiles.php?id=741' class='tooltip' title='Regular Prisoner - Level: 27'><font color='#FFE4C4'>Zebb</font></a><br/>
+Level: 27<br/>
+Cash: $0 <a href='bank.php?dep=true'><img src='images/silk/calculator_add.png' title='Bank' alt='Bank'/></a><br/>
+Points: 0 <a href="spendpoints.php"><img src='images/silk/basket_go.png' title='Spend' alt='Spend'/></a><br/>
+Store Credit: $0
+</div>
+<div class="spacer"></div>
+<div class="stat_container" title="Health: 20% - 270/1350">
+<div class="stat_name">
+HP
+</div>
+<div class="stat">
+<div style="background: url(images/stat_bar_bg.png) no-repeat;width: 90px;height:13px;">
+<div style="background: url(images/red_stat_bar.png) no-repeat;width: 20%;height:13px;">
+</div></div>
+</div>
+<div class="spacer"></div>
+</div>
+<div class="stat_container" title='Energy: 100% - 36/36'>
+<div class="stat_name">
+Energy
+</div>
+<div class="stat">
+<div style="background: url(images/stat_bar_bg.png) no-repeat;width: 90px;height:13px;">
+<div style="background: url(images/green_stat_bar.png) no-repeat;width: 100%;height:13px;">
+</div></div>
+</div>
+<div class="spacer"></div>
+</div>
+<div class="stat_container" title='Awake: 100% - 1100/1100'>
+<div class="stat_name">
+Awake
+</div>
+<div class="stat">
+<div style="background: url(images/stat_bar_bg.png) no-repeat;width: 90px;height:13px;">
+<div style="background: url(images/green_stat_bar.png) no-repeat;width: 100%;height:13px;">
+</div></div>
+</div>
+<div class="spacer"></div>
+</div>
+<div class="stat_container" title='Nerve: 100% - 31/31'>
+<div class="stat_name">
+Nerve
+</div>
+<div class="stat">
+<div style="background: url(images/stat_bar_bg.png) no-repeat;width: 90px;height:13px;">
+<div style="background: url(images/green_stat_bar.png) no-repeat;width: 100%;height:13px;">
+</div></div>
+</div>
+<div class="spacer"></div>
+</div>
+<div class="stat_container" title='Exp: 468,091 / 472,392 [88%]'>
+<div class="stat_name">
+EXP
+</div>
+<div class="stat">
+<div style="background: url(images/stat_bar_bg.png) no-repeat;width: 90px;height:13px;">
+<div style="background: url(images/green_stat_bar.png) no-repeat;width: 88%;height:13px;">
+</div></div>
+</div>
+<div class="spacer"></div></div>
+</div>
+</div>
+<div class="bottom_menu_box"></div>
+ 
+<div class="header navigation"></div>
+<div class="menu_box">
+<div class="pad"><a class="link" href="announcements.php">Announcements [0]</a>
+<a href="pshop.php" class="link">Points Store <span style='font-size: 10px;color:red'>[NEW]</span></a>
+<a href="index.php" class="link">Cell</a>
+<a class="link" href="city.php">Gitarama Central </a>
+<a class="link" href="inventory.php">Inventory</a>
+<a class="link" href="forums.php">Forum</a>
+<a class="link" href="bank.php">Bank</a>
+<a class="link" href="gang.php">Your Gang</a>
+<a class="link" href="mypet.php">Your Pet<span style='color:red'>&nbsp;[NEW]</span></a>
+<a class="link" href="gym.php">Gym</a>
+<a class="link" href="crime.php">Crimes</a>
+<a class="link" href="school.php">Prison School<span style='color:red'>&nbsp;[NEW]</span></a>
+<a class="link" href="ads.php">Ads</a>
+<a class="link" href="shops.php">Your Shop</a>
+<a class="link" href="friends.php">Friends</a>
+<a class="link" href="trades.php">Trades</a>
+<a class="link" href="hospital.php">Hospital [0]</a>
+<a class="link" href="jail.php">Showers [0]</a>
+<a class="link" href="pms.php?view=inbox">Mailbox [0]</a>
+<a class="link" href="events.php">Events [0]</a>
+<a class="link" href="chat.php">Chat [0]</a>
+<a class="link" href='jobs.php'>Job Center</a>
+<a class="link" href='itempedia.php'>Itempedia</a>
+<a class="link" href='buydrugs.php'>Shady-Looking Stranger</a>
+<a class="link" href='logchecker.php'>Log Checker</a>
+<a class="link" href="contactlist.php">Contact List<span style='color:red'>&nbsp;[NEW]</span></a>
+</div>
+</div>
+<div class="bottom_menu_box"></div>
+<div class="header account"></div>
+<div class="menu_box">
+<div class="pad">
+<a class="link" href="index.php?action=logout">Logout</a>
+<a class="link" href="ignore_list.php">Ignore List</a>
+<a class="link" href="preferences.php">Change Preferences</a>
+<a class="link" href="cpassword.php">Change Password</a>
+<a class="link" href="donate.php">RP Store</a>
+<a class="link" href="menubuild.php">Build Your Own Menu</a>
+</div>
+</div>
+<div class="bottom_menu_box"></div>
+<div class="header support"></div>
+<div class="menu_box">
+<div class="pad">
+<a class="link" href="suggestionbox.php">Suggestions</a>
+<a class="link" href="tickets.php">Submit a Ticket</a>
+<a class="link" href="help.php">Help Tutorial</a>
+<a class="link" href="expguide.php">EXP Guide</a>
+<a class="link" href="tos.php">Terms of Service</a>
+</div>
+</div><div class="bottom_menu_box"></div>
+</div>
+<div class="right">
+<div id="top_player_container">
+<div id="top_player_header" class="donator"></div>
+<div id="top_player_box">
+<div class="h3"><a href='viewgang.php?id=43' title='Ragnarök - Gang Leader' class='tooltip'>[<b><font color=''>E</font><font color=''>N</font><font color=''>D</font></b>]</a> <a href='profiles.php?id=271' class='tooltip' title='RP Days: 52 - Super Moderator - Level: 93' style='font-weight:700;'><font color='#ffffff' style=';'>T</font><font color='#f6f9ff' style=';'>h</font><font color='#eef3ff' style=';'>u</font><font color='#e6eeff' style=';'>n</font><font color='#dde8ff' style=';'>d</font><font color='#d5e3ff' style=';'>e</font><font color='#cdddff' style=';'>r</font><font color='#c4d7ff' style=';'> </font><font color='#bcd2ff' style=';'>G</font><font color='#b4ccff' style=';'>o</font><font color='#acc7ff' style=';'>d</font></a></div>
+<div class="h3"><a href='profiles.php?id=33912' class='tooltip'  title='Regular Prisoner - Automated Prison Service - Level: 1'style='font-weight:700;'><font color='#FF0'>PrisonBot</font></a></div>
+                            <div class="h3"><a href='profiles.php?id=4' class='tooltip'  title='Regular Prisoner - Level: 3'><font color='#FFE4C4'>Lioness</font></a></div>
+                            <div class="spacer"></div>
+                        </div> 
+                        <div style="position:absolute;margin-top:-5px;margin-left:215px;z-index:999999;width:400px;text-align:center;">
+                            <span style="color:#222;font-weight:800;font-size:12pt;text-shadow: 0 0 2px #fff;">Top donators</span>
+                        </div>
+                        <div class="spacer"></div>
+                    </div>
+                    <div id="content_container">
+                        <div class="top"></div>
+                        <div class="middle">
+                            <div class="pad">
+
+                                <table>
+    <tr><td class="contenthead">Move Cell</td></tr>
+    <tr><td class="contentcontent"><br /><a href='house.php?action=sell'>Sell Your Cell</a><br />If you choose to sell your cell you will recive 75% of its cost<table class='table' width='96%'>
+                <tr>
+                    <th width='45%'>Type</th>
+                    <th width='15%'>Awake</th>
+                    <th width='20%'>Cost</th>
+                    <th width='20%'>Daily Fee (0.2%)</th>
+                    <th width='20%'>Security</th>
+                    <th width='20%'>Move</th>
+                </tr> 
+                <tr>
+		<td>Overnight Cell</td>
+		<td>200</td>
+		<td>$7,500</td>
+		<td>$15</td>
+		<td>0</td>
+		<td></td>
+	</tr><tr>
+		<td>Isolation Cell</td>
+		<td>350</td>
+		<td>$25,000</td>
+		<td>$50</td>
+		<td>0</td>
+		<td></td>
+	</tr><tr>
+		<td>Cell with Beach Poster</td>
+		<td>550</td>
+		<td>$75,000</td>
+		<td>$150</td>
+		<td>0</td>
+		<td></td>
+	</tr><tr>
+		<td>Cell with window</td>
+		<td>800</td>
+		<td>$225,000</td>
+		<td>$450</td>
+		<td>0</td>
+		<td></td>
+	</tr><tr>
+		<td>Mattress </td>
+		<td>1,100</td>
+		<td>$1,250,000</td>
+		<td>$2,500</td>
+		<td>0</td>
+		<td></td>
+	</tr><tr>
+		<td>Toilet </td>
+		<td>1,450</td>
+		<td>$5,000,000</td>
+		<td>$10,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=6'>Move In</a></td>
+	</tr><tr>
+		<td>Sink </td>
+		<td>1,850</td>
+		<td>$12,500,000</td>
+		<td>$25,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=7'>Move In</a></td>
+	</tr><tr>
+		<td>Bed </td>
+		<td>2,300</td>
+		<td>$27,500,000</td>
+		<td>$55,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=8'>Move In</a></td>
+	</tr><tr>
+		<td>Soft Kingsize Bed </td>
+		<td>2,800</td>
+		<td>$47,000,000</td>
+		<td>$94,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=9'>Move In</a></td>
+	</tr><tr>
+		<td>T.V. </td>
+		<td>3,350</td>
+		<td>$65,000,000</td>
+		<td>$130,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=10'>Move In</a></td>
+	</tr><tr>
+		<td>DVD Player </td>
+		<td>3,950</td>
+		<td>$100,000,000</td>
+		<td>$200,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=11'>Move In</a></td>
+	</tr><tr>
+		<td>Plasma T.V. </td>
+		<td>4,600</td>
+		<td>$140,000,000</td>
+		<td>$280,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=12'>Move In</a></td>
+	</tr><tr>
+		<td>Mini Bar </td>
+		<td>5,300</td>
+		<td>$200,000,000</td>
+		<td>$400,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=13'>Move In</a></td>
+	</tr><tr>
+		<td>Computer </td>
+		<td>6,050</td>
+		<td>$275,000,000</td>
+		<td>$550,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=14'>Move In</a></td>
+	</tr><tr>
+		<td>Jacuzzi </td>
+		<td>6,850</td>
+		<td>$375,000,000</td>
+		<td>$750,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=15'>Move In</a></td>
+	</tr><tr>
+		<td>Pool Table </td>
+		<td>7,700</td>
+		<td>$500,000,000</td>
+		<td>$1,000,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=16'>Move In</a></td>
+	</tr><tr>
+		<td>High-end HiFi Set</td>
+		<td>8,650</td>
+		<td>$675,000,000</td>
+		<td>$1,350,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=17'>Move In</a></td>
+	</tr><tr>
+		<td>Fiber Optics Internet Connection to the Computer</td>
+		<td>9,700</td>
+		<td>$900,000,000</td>
+		<td>$1,800,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=18'>Move In</a></td>
+	</tr><tr>
+		<td>Master Painting </td>
+		<td>10,850</td>
+		<td>$1,175,000,000</td>
+		<td>$2,350,000</td>
+		<td>0</td>
+		<td><a href='house.php?buy=19'>Move In</a></td>
+	</tr><tr>
+		<td>Mezzanine </td>
+		<td>14,000</td>
+		<td>$1,500,000,000</td>
+		<td>$3,000,000</td>
+		<td>1</td>
+		<td><a href='house.php?buy=20'>Move In</a></td>
+	</tr><tr>
+		<td>Fountain </td>
+		<td>15,500</td>
+		<td>$1,875,000,000</td>
+		<td>$3,750,000</td>
+		<td>2</td>
+		<td><a href='house.php?buy=21'>Move In</a></td>
+	</tr><tr>
+		<td>Golden Statue </td>
+		<td>18,000</td>
+		<td>$2,147,483,647</td>
+		<td>$4,294,967</td>
+		<td>3</td>
+		<td><a href='house.php?buy=22'>Move In</a></td>
+	</tr><tr>
+    <td>Wardens Office </td>
+    <td>21,000</td>
+    <td>$3,000,000,000</td>
+    <td>$2,250,000,000</td>
+    <td>3</td>
+    <td><a href='house.php?buy=23'>Move In</a></td>
+	</tr></table>
+        </td></tr></table>					</div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+</body>
+</html>
